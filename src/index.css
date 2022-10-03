@@ -1,0 +1,441 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+*{
+  font-family: 'Inter Tight', sans-serif;
+  margin: 0;padding: 0;
+  position: relative;
+}
+h3{
+  font-family: 'Inter Tight', sans-serif;
+  margin-left : 50px;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+.navbar{
+  padding: 0 25px 0 50px ;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1188.2px;
+  min-width: 1188.2px;
+  max-height: 88.2px;
+  min-height: 88.2px;
+  background-color: #B7C4CF;
+}
+.navbar h2{
+ margin :auto auto;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.buttonl{
+  border: solid 1.5px;
+  border-right: 5px;
+  border-radius:   5px 0 0 5px ;
+  height: 20px;
+  width:25px;
+   background-color: #4a4d54;
+  color: white;
+  cursor: pointer;
+  
+}
+.buttonr{
+  border: solid 1.5px;
+  border-radius:  0 5px 5px 0;
+  height: 20px;
+  width:25px;
+  background-color: #4a4d54;
+  color: white;
+  cursor: pointer;
+
+}
+buttonr:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: #4a4d54;
+
+}
+buttonl:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: #4a4d54;
+
+}
+select{
+  margin: 20px;
+  height: 20px;
+  border-radius :5px ;
+}
+.container{
+  display: grid;
+  grid-template-columns: 256px 1263.2px;
+  position: relative;
+
+}
+.calender{
+
+ 
+
+  max-width: 83.333vw;
+  margin-left: 5px;
+  
+}
+
+
+
+.calendercontainer{
+  /* margin-top: 25px; */
+  max-width: fit-content;
+  min-height: 1575px;
+  min-width: fit-content;
+  
+}
+.ddcontainer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-right: 70px;
+
+}
+.daydate{
+  margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    height: 60px;
+    width:40px;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    
+}
+.day{
+  margin-top: 5px;
+  
+}
+.daydate:hover{
+  background-color: #4949C9;
+  color: white;
+  border-radius: 20px;
+  /* height: 45px;
+  width: 30px; */
+
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: rgb(196, 182, 182);
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 211.81px 1051.4px;
+  
+}
+.event{
+  grid-column-start: 2;
+  grid-column-end:9 ;
+  display: grid;
+  grid-template-columns:150.2px 150.2px 150.2px 150.2px 150.2px 150.2px 150.2px;
+  max-width: 1051.4px;
+  max-height: 1451px;
+}
+.time{
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+ 
+}
+.ptime{
+  left:80px;
+  margin-top: 0;
+  position: relative;
+  color: rgb(196, 182, 182);
+  
+  
+
+}
+.grid-item{
+  border: 1px solid rgb(196, 182, 182);
+  
+  border-top: none;
+  border-left: none;
+  height: 120px;
+  max-width: 149.2px;
+  max-height: 120px;
+  
+}
+.a9{
+  top:16px;
+}
+.a10{
+  top:23px;
+}
+.a11{
+  top:30px;
+}
+.a12{
+  top:37px;
+}
+.p1{
+  top:44px;
+}
+.p2{
+  top:55px;
+}
+.p3{
+  top:62px;
+}
+.p4{
+  top:69px;
+}
+.p5{
+  top:76px
+}
+.p6{
+  top:85px;
+}
+.p7{
+  top:95px;
+}
+.p8{
+  top:96px;
+}
+
+.calendercontainer{
+  box-shadow: 0px 0px 15px grey;
+  border-radius: 5px;
+}
+.sun12,.mon12,.tue12,.wed12,.thu12,.fri12,.sat12{
+border-bottom: none;
+}
+
+
+
+/* For Sidebar and its elements */
+
+.sidebar{
+  
+  background-color: #D7D7F3;
+  max-height: 527.51px;
+  min-height: 527.51px;
+  margin-right: 5px;
+  border-bottom-right-radius: 10px;
+  max-width: 261px;
+  min-width: 261px;
+  
+
+}
+.sidenav{
+  margin: 0;
+  padding: 0;
+  height: 88.2px;
+  background-color: #31353E;
+  color:rgb(240, 229, 229);
+  font-size: medium;
+  font-weight: 400;
+  text-align: center;
+}
+.sidenav h2{
+  padding: 25px;
+  margin: auto auto;
+}
+
+form{
+  margin-top: 20px;
+}
+
+.sidebarcontainer{
+  text-align: center;
+}
+.infolabel{
+  margin-bottom: 5px;
+}
+.selectdate{
+  margin: 20px;
+}
+.dateselect{
+  margin: 0;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.selecttime{
+  margin: 20px;
+  margin-top: 30px;
+}
+.timeselect{
+  margin: 0;
+  cursor: pointer;
+  border: none;
+}
+.setEvent{
+  margin:30px
+}
+textarea{
+  width: 90%;
+}
+
+.setEvent{
+  border: none;
+  width: 40%;
+  border-radius: 10px;
+  height: 25px;
+  background-color: #4a4d54;
+  color: white;
+  cursor: pointer;
+}
+.setEvent:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: #4a4d54;
+}
+
+
+
+
+
+
+
+/* For the information in the grid */
+.information{
+  position: relative;
+  text-align: center;
+  max-width: 149px;
+  min-width: 149px;
+  max-height: 120px;
+  min-height: 120px;
+  white-space: pre-line;
+  
+  border-radius: 15px 25px 0 10px;
+  
+}
+.information:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 15px grey;
+}
+.pinfo{padding-top: 10px;}
+#time{
+  position: absolute;
+  
+  bottom: 5px;
+  left: 25px;
+}
+
+
+
+
+/* For the select element */
+select:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/* For yellow circles */
+
+
+.circle{
+  position: absolute;
+  font-size: 8px;
+  top:165px;
+  z-index: 1;
+  display: none;
+  
+}
+/* there positioning */
+.sun{
+  left:265px;
+  
+}
+.mon{
+  left:415px;
+}
+.tue{
+  left: 566px;
+}
+.wed{
+  left: 716px;
+}
+.thu{
+  left: 867px;
+}
+.fri{
+  left: 1017px;
+}
+.sat{
+  
+  left: 1168px;
+}
+
+
+
+/* To set different color on different day */
+.sunp{
+  background-color:  #FFD6C4 ;
+}
+.monp{
+  background-color: #C8EBDC;
+}
+.tuep{
+  background-color: #D7D7F3;
+}
+.wedp{
+  background-color: #EBC7E8;
+}
+.thup{
+  background-color: #FAF4B7;
+}
+.frip{
+  background-color: #FFCACA;
+}
+.satp{
+  background-color: #FFD6EC;
+}
+
+.delete{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: 3px;
+  right: 5px;
+  /* z-index: 2; */
+
+}
+.delete:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+.delete .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.delete .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.delete:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
